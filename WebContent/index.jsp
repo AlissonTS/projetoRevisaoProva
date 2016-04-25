@@ -18,7 +18,7 @@
 			</c:if>
 			
 			<c:if test="${empty usuarioLogado }">
-				<h1 style="text-align: center">Formulário de Login:</h1>
+				<h1 style="text-align: center">Formulário de Login - Aplicação Revisão de Prova:</h1>
 				<form action="/projetoRevisaoProva/mvc?logica=LogarLogica" method="post">
 					<p style="text-align: center"><input type="text" id="login" name="login" placeholder="Login" required autofocus/></p>
 		            <p style="text-align: center"><input type="password" id="senha" placeholder="Senha" name="senha" required/></p>
